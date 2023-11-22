@@ -60,7 +60,7 @@ int main()
 	//Com 100 mil dados cada iteracao dura em media 35 segundos, entao esse codigo de exemplo
 	//demora em media 1 hora e meia para gerar o csv
 	int iterations = 10000;
-	for (int iterations = 0; iterations < n; iterations++) 
+	for (int i = 0; i < iterations; i++) 
 	{
 		//Armazenamento de todos os dados no csv
 		results << bubbleSort(arr, n) << ", " << quickSort(arr1, 0, n-1) << ", " << mergeSort(arr2, 0, n-1) << "\n";
