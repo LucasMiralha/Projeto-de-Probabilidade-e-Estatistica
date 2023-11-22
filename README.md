@@ -1,4 +1,11 @@
-# Projeto-de-Probabilidade-e-Estatistica
+# Projeto de Probabilidade e Estatística
+
+## Comentários:
+- As configurações da máquina na qual o código foi rodado e tamanho dos dados utilizados estão no seu nome, para fácil identificação.
+- Basta mudar o nome do arquivo "num.csv" no main entre "num10k.csv", "num100k.csv" e "num1kk.csv" para se obter os dados dos respectivos tamanhos do arquivo.
+- Existe 3 arquivos extras, "num1k.csv", "num2k5.csv" e "num5k.csv", que possuem 1000, 2500 e 5000 dados, respectivamente, porém não foram usados no processo final.
+
+
 ### INTRODUÇÃO
 
 A análise comparativa de algoritmos de ordenação desempenha um papel
