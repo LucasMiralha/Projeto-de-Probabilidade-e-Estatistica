@@ -53,7 +53,7 @@ int main()
     	}
 
 	//Criacao ou adicao dos resultados em um arquivo .csv
-	results.open("Resultados_10k_intel5_11G_16GBRAM.csv", ios::out | ios::app);
+	results.open("Resultados_100k_intel5_11G_16GBRAM.csv", ios::out | ios::app);
 
 	//Quantidade de iteracoes, basicamente o tamanho dos dados
 	//Foi escolhido 10 mil como populacao e posteriormente mil como amostra
