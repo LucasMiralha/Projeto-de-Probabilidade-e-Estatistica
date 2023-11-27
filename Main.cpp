@@ -36,22 +36,7 @@ int main()
 		//Alimentado o vector com os numeros do arquivo
 		dados.push_back(x);
 	}
-	//Coleta da quantidade de valores do arquivo
-	int n = dados.size();
-	//Criacao dos arrays que vao armazenar os numeros do arquivo
-	//Isso e feito para poder usa-los nos algoritmos de sort
-	float arr[n], arr1[n], arr2[n];
 	
-    	for (int i = 0; i < n; i++) 
-	{
-		//Passando o vector para 3 arrays diferentes
-		//Sao usados 3 arrays iguais para manter a mesma
-		//desordem em todos os algoritmos de sort
-	        arr[i] = dados[i];
-	        arr1[i] = dados[i];
-	        arr2[i] = dados[i];
-    	}
-
 	//Criacao ou adicao dos resultados em um arquivo .csv
 	results.open("Resultados_100k_intel5_11G_16GBRAM.csv", ios::out | ios::app);
 
@@ -60,6 +45,30 @@ int main()
 	int iterations = 10000;
 	for (int i = 0; i < iterations; i++) 
 	{
+		//Coleta da quantidade de valores do arquivo
+		int n = dados.size();
+		//Criacao dos arrays que vao armazenar os numeros do arquivo
+		//Isso e feito para poder usa-los nos algoritmos de sort
+		float arr[n], arr1[n], arr2[n];
+		
+	    	for (int k = 0; k < n; i++) 
+		{
+			//Passando o vector para 3 arrays diferentes
+			//Sao usados 3 arrays iguais para manter a mesma
+			//desordem em todos os algoritmos de sort
+		        arr[i] = dados[i];
+		        arr1[i] = dados[i];
+		        arr2[i] = dados[i];
+	    	}
+		for (int j = 0; j < n; j++) 
+		{
+			//Passando o vector para 3 arrays diferentes
+			//Sao usados 3 arrays iguais para manter a mesma
+			//desordem em todos os algoritmos de sort
+		        arr[i] = dados[i];
+		        arr1[i] = dados[i];
+		        arr2[i] = dados[i];
+    		}	
 		//Armazenamento de todos os dados no csv
 		results << bubbleSort(arr, n) << ", " << quickSort(arr1, 0, n-1) << ", " << mergeSort(arr2, 0, n-1) << "\n";
     	}
