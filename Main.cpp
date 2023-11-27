@@ -55,10 +55,8 @@ int main()
 	//Criacao ou adicao dos resultados em um arquivo .csv
 	results.open("Resultados_100k_intel5_11G_16GBRAM.csv", ios::out | ios::app);
 
-	//Quantidade de iteracoes, basicamente o tamanho dos dados
-	//Foi escolhido 10 mil como populacao e posteriormente mil como amostra
-	//Com 100 mil dados cada iteracao dura em media 35 segundos, entao esse codigo de exemplo
-	//demora em media 1 hora e meia para gerar o csv
+	//Criando Header do arquivo csv
+	results << "BubbleSort" << ", " << "QuickSort" << ", " << "MergeSort" << "\n";
 	int iterations = 10000;
 	for (int i = 0; i < iterations; i++) 
 	{
