@@ -2,8 +2,8 @@
 
 ## Comentários:
 - As configurações da máquina na qual o código foi rodado e tamanho dos dados utilizados estão no seu nome, para fácil identificação.
-- Basta mudar o nome do arquivo "num.csv" no main entre "num10k.csv", "num100k.csv" e "num1kk.csv" para se obter os dados dos respectivos tamanhos do arquivo.
-- Existe 3 arquivos extras, "num1k.csv", "num2k5.csv" e "num5k.csv", que possuem 1000, 2500 e 5000 dados, respectivamente, porém não foram usados no processo final.
+- Basta mudar o nome do arquivo "num.csv" no main entre "num1k.csv", "num10k.csv" e "num100k.csv" para se obter os dados dos respectivos tamanhos do arquivo.
+- Existe 3 arquivos extras, "num2k5.csv", "num5k.csv" e "num1kk.csv", que possuem 2500, 5000 e 1 milhão de dados, respectivamente, porém não foram usados no processo final.
 
 
 ### INTRODUÇÃO
