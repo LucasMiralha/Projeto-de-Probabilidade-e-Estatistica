@@ -1,0 +1,55 @@
+CREATE TABLE Resultados_1k_intel5_11400H_16GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
+
+CREATE TABLE Resultados_10k_intel5_11400H_16GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
+
+CREATE TABLE Resultados_100k_intel5_11400H_16GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
+
+CREATE TABLE Resultados_10k_Ryzen7_3700U_8GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
+
+CREATE TABLE Resultados_100k_Ryzen7_3700U_8GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
+
+CREATE TABLE Resultados_10k_intel7_11700_32GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
+
+CREATE TABLE Resultados_100k_intel7_11700_32GBRAM
+(
+  id SERIAL PRIMARY KEY,
+  BubbleSort float,
+  QuickSort float,
+  MergeSort float
+);
