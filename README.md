@@ -4,7 +4,8 @@
 - As configurações da máquina na qual o código foi rodado e tamanho dos dados utilizados estão no seu nome, para fácil identificação.
 - Basta mudar o nome do arquivo "num.csv" no main entre "num1k.csv", "num10k.csv" e "num100k.csv" para se obter os dados dos respectivos tamanhos do arquivo.
 - Existe 3 arquivos extras, "num2k5.csv", "num5k.csv" e "num1kk.csv", que possuem 2500, 5000 e 1 milhão de dados, respectivamente, porém não foram usados no processo final.
-- O arquivo Tables_resultados possui os códigos para criar as tabelas no pgadmin4, os dados foram armazenados no banco usando a funcionalidade import do pgadmin4
+- O arquivo Tables_resultados possui os códigos para criar as tabelas no pgadmin4, os dados foram armazenados no banco usando a funcionalidade import do pgadmin4.
+- Todo os códigos de Sort foram retirados e adaptados para o projeto do site [geeksforgeeks](www.geeksforgeeks.org).
 
 
 ## Lauda do projeto
