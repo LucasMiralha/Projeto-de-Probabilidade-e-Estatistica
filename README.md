@@ -6,6 +6,8 @@
 - Existe 3 arquivos extras, "num2k5.csv", "num5k.csv" e "num1kk.csv", que possuem 2500, 5000 e 1 milhão de dados, respectivamente, porém não foram usados no processo final.
 
 
+## Lauda do projeto
+
 ### INTRODUÇÃO
 
 A análise comparativa de algoritmos de ordenação desempenha um papel
